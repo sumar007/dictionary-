@@ -5,6 +5,7 @@ import Result from './components/result';
 import SearchWithSuggestions from './components/suggestions';
 
 function App() {
+  <h1>Hello</h1>
   return (
     <Router>
       <Routes>
