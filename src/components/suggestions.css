@@ -1,0 +1,33 @@
+/* style.css */
+.search-container {
+    position: relative; /* Ensure absolute positioning for suggestions */
+    width: 300px; /* Adjust as needed */
+  }
+  
+  #search-box {
+    width: 100%; /* Ensure the input takes the full width of the container */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 50%;
+  }
+  
+  .suggestions-list {
+    position: absolute; /* Position suggestions below the search box */
+    top: 350px; /* Adjust based on input box height */
+    background: white;
+    border: 1px solid #ddd;
+    max-height: 200px; /* Limit the height for scrolling */
+    overflow-y: auto;
+    z-index: 1000; /* Ensure it appears above other elements */
+  }
+  
+  .suggestion {
+    padding: 8px; /* Padding for each suggestion */
+    cursor: pointer; /* Indicates it's clickable */
+  }
+  
+  .suggestion:hover {
+    background-color: lightgray; /* Changes color on hover for interactivity */
+  }
+  
